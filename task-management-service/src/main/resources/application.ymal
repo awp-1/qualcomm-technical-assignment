@@ -34,3 +34,10 @@ logging:
   level:
     com.albertsons.assignment: DEBUG
     org.springframework.web: INFO
+
+# Swagger / OpenAPI Configuration
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  show-actuator: false
+  paths-to-match: /api/v1/**
